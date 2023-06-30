@@ -154,7 +154,7 @@ $res = $alipayGlobal->run([
 
 ###### 撤销授权令牌
 ```php
-$res = $alipayGlobal2->run([
+$res = $alipayGlobal->run([
     'model'       => 'RevokeToken',// 默认值
     'accessToken' => 'xxxxxxxxx',
 ]);
