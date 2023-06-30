@@ -1,7 +1,6 @@
 <?php
 namespace Yng\AlipayGlobal\Request\Online\Pay;
 
-use Yng\AlipayGlobal\Tool\Tool;
 use Yng\AlipayGlobal\Validate\Validator;
 
 /**

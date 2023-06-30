@@ -1,7 +1,6 @@
 <?php
 namespace Yng\AlipayGlobal\Request\Online\Auth;
 
-use Yng\AlipayGlobal\Tool\Tool;
 use Yng\AlipayGlobal\Validate\Validator;
 
 /**
@@ -40,7 +39,6 @@ class RevokeTokenRequest
      */
     private function setAccessToken($accessToken)
     {
-        Tool::vaild('accessToken' , $accessToken);
         $this->accessToken = $accessToken;
         return $this;
     }

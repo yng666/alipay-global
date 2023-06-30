@@ -1,7 +1,6 @@
 <?php
 namespace Yng\AlipayGlobal\Request\Online\Auth;
 
-use Yng\AlipayGlobal\Tool\Tool;
 use Yng\AlipayGlobal\Validate\Validator;
 
 /**
@@ -85,7 +84,6 @@ class ApplyTokenRequest
      */
     private function setCustomerBelongsTo(string $customerBelongsTo)
     {
-        Tool::vaild('customerBelongsTo' , $customerBelongsTo);
         $this->customerBelongsTo = $customerBelongsTo;
         return $this;
     }
